@@ -61,7 +61,7 @@ node{
     dir('FunctionalTests'){
 
         stage('Get Functional Test Scripts'){                        
-            git 'https://github.com/devopsevd/jenkins-selenium-int-testing.git'
+            git 'https://github.com/devopsevd/selenium-elastic-kibana.git'
             mvnHome = tool 'Maven'
         }
 
